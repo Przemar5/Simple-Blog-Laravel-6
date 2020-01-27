@@ -1,0 +1,53 @@
+.comment {
+    $img-size: 5rem;
+    $img-margin-right: 1.5rem;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    &__heading {
+        display: block;
+        margin-bottom: 1.5rem;
+        height: $img-size;
+
+        &--left,
+        &--right {
+            float: left;
+            display: block;
+            margin-right: $img-margin-right;
+        }
+
+        &--right {
+            height: $img-size;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    &__author-name {
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-bottom: .5rem;
+    }
+
+    &__date {
+        font-size: 1.5rem;
+        font-style: italic;
+        line-height: 1;
+        margin: 0;
+    }
+
+    &__author-image {
+        width: $img-size;
+        height: $img-size;
+        display: block;
+        border-radius: 50%;
+    }
+
+    &__content {
+        clear: both;
+        display: block;
+        margin-left: $img-size + $img-margin-right;
+    }
+}

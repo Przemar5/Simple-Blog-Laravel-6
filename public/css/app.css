@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600&display=swap);.btn-edit {
+  margin-right: 1rem;
+}
+
+.comment {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.comment__heading {
+  display: block;
+  margin-bottom: 1.5rem;
+  height: 5rem;
+}
+
+.comment__heading--left,
+.comment__heading--right {
+  float: left;
+  display: block;
+  margin-right: 1.5rem;
+}
+
+.comment__heading--right {
+  height: 5rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.comment__author-name {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.comment__date {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1;
+  margin: 0;
+}
+
+.comment__author-image {
+  width: 5rem;
+  height: 5rem;
+  display: block;
+  border-radius: 50%;
+}
+
+.comment__content {
+  clear: both;
+  display: block;
+  margin-left: 6.5rem;
+}
+
+.admin-table-buttons {
+  min-width: 14rem !important;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-seriif;
+  font-size: 1.6rem;
+  background-color: #f8f8f8;
+}
+
+#app {
+  padding-top: 4rem;
+}
+
